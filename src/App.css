@@ -1,0 +1,35 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid gainsboro;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 48px);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.reset-btn {
+  padding: 5px 10px;
+  color: white;
+  background-color: dimgray;
+  border: none;
+  border-radius: 5px;  
+}
